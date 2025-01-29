@@ -20,7 +20,7 @@ const TypingAnimation = () => {
 
     return (
         <motion.h2
-            className="text-white md:text-xl my-4 w-3/4 h-20"
+            className="text-white w-full md:text-xl my-4 md:w-3/4 h-20"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}

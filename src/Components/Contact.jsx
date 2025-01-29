@@ -47,7 +47,7 @@ const Contact = ({socialMedia}) => {
                     initial={{opacity: 0, scale: 0.9}}
                     animate={{opacity: 1, scale: 1}}
                     transition={{delay: 0.2}}
-                    className="text-blue-100 my-4 mx-auto w-2xl text-center"
+                    className="text-blue-100 my-4 mx-auto w-full text-center"
                 >
                     Ya sea que tengas una idea, que quieras que construyamos juntos un proyecto o que necesites
                     asesoramiento, estoy aquí para ayudarte.
@@ -69,7 +69,7 @@ const Contact = ({socialMedia}) => {
                             whileTap={tapEffect}
                         >
                             <div
-                                className="flex flex-col justify-center items-center rounded-xl w-2xs bg-white/10 border border-white/10 shadow-lg backdrop-blur-md p-2 hover:bg-white/20 transition-all duration-300">
+                                className="flex flex-col justify-center items-center rounded-xl w-2xs bg-white/10 border my-4 border-white/10 shadow-lg backdrop-blur-md p-2 hover:bg-white/20 transition-all duration-300">
                                 <h3 className="text-center text-white text-xl mb-2">
                                     {social.name}
                                 </h3>

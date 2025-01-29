@@ -13,7 +13,7 @@ const Index = () => {
                     initial="initial"
                 >
                     <motion.p
-                        className="text-gray-200 md:mx-4 font-serif tracking-widest"
+                        className="text-gray-200 md:mx-4 md:text-xl text-sm font-serifq tracking-widest"
                         variants={{
                             initial: { color: "#E5E7EB" },
                             hover: { color: "#ffe225" }
@@ -31,7 +31,7 @@ const Index = () => {
                         }}
                         transition={{ duration: 0.3 }}
                     />
-                </motion.div>            <h1 className="text-xl md:text-9xl text-white my-4 font-serif">Soy Agustín Martin</h1>
+                </motion.div>            <h1 className="text-3xl md:text-9xl text-white my-4 font-serif">Soy Agustín Martin</h1>
                 <TypingAnimation />
                 <ScrollLink to="proyectos" className="cursor-pointer" smooth={true} duration={500}>
                     <motion.button
