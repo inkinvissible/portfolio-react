@@ -7,7 +7,9 @@ const BentoGrid = ({titles, descriptions, imgUrls, links}) => {
                     transition={{
                         duration: 0.4,
                         scale: {visualDuration: 0.4},
-                    }} className="py-24 sm:py-32 bg-[#384f46]">
+                    }}
+                    viewport={{amount: 0.001, margin: "0px 0px 700px 0px"}}
+                    className="py-24 sm:py-32 bg-[#384f46]">
             <div className="mx-auto max-w-2xl px-6 lg:max-w-7xl lg:px-8">
                 <h2 className="text-center text-base/7 font-semibold text-blue-100 font-headings">Mis Proyectos</h2>
                 <p className="mx-auto mt-2 max-w-lg text-center font-serif text-4xl font-semibold tracking-tight text-balance text-gray-100 sm:text-5xl">
