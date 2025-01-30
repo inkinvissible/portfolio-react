@@ -6,7 +6,7 @@ import Index from "./Home/index.jsx";
 const Backgound = () => {
     return(
         <motion.div
-            className="container rounded-b-lg h-screen relative overflow-hidden w-full"
+            className="container h-screen relative overflow-hidden w-full"
             style={{
                 backgroundImage: "linear-gradient(270deg, #508f7e, #384f46)",
                 backgroundSize: "300% 300%",

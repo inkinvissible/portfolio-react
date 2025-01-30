@@ -58,7 +58,7 @@ const Contact = ({socialMedia}) => {
                     initial="hidden"
                     whileInView="visible"
                     viewport={{once: true, margin: "-100px"}}
-                    className="flex flex-col md:flex-row justify-around items-center space-x-4 mt-2"
+                    className="flex flex-col md:flex-row justify-around items-center md:space-x-4 space-y-4 mt-2"
                 >
                     {socialMedia.map((social, index) => (
                         <motion.a
@@ -69,7 +69,7 @@ const Contact = ({socialMedia}) => {
                             whileTap={tapEffect}
                         >
                             <div
-                                className="flex flex-col justify-center items-center rounded-xl w-2xs bg-white/10 border my-4 border-white/10 shadow-lg backdrop-blur-md p-2 hover:bg-white/20 transition-all duration-300">
+                                className="flex flex-col justify-center items-center rounded-xl w-2xs bg-white/10 border mt-2 border-white/10 shadow-lg backdrop-blur-md p-2 hover:bg-white/20 transition-all duration-300">
                                 <h3 className="text-center text-white text-xl mb-2">
                                     {social.name}
                                 </h3>
