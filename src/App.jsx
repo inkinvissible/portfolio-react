@@ -4,6 +4,7 @@ import Projects from "./Components/Projects/index.jsx";
 import {Element} from "react-scroll";
 import Contact from "./Components/Contact.jsx";
 import Footer from "./Components/Footer.jsx";
+import About from "./Components/About/index.jsx";
 
 const App = () => {
     const socialMedia = [
@@ -34,9 +35,13 @@ const App = () => {
             <Element name="proyectos" >
                 <Projects />
             </Element>
+            <Element name="about" >
+                <About />
+            </Element>
             <Element name="contacto" >
                 <Contact socialMedia={socialMedia}/>
             </Element>
+
             <Footer />
         </>
     )

@@ -20,6 +20,6 @@
         @apply font-[var(--font-family-headings)];
     }
 }
-body {
-    background-color: ;
-}
+.vignette-overlay {
+background: radial-gradient(circle at center, transparent 0%, rgba(0, 0, 0, 0.4) 100%);
+ }
